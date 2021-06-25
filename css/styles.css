@@ -1,0 +1,128 @@
+*{margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+}
+/*cajon principal le damos extender el
+ancho*/
+header{
+    width: 100%;
+}
+/*colocamos una caja con flex con
+el fin de alinear toda la info
+por dentro de manera más
+facil*/
+.caja-header{ 
+    display: flex;
+    background-color: #222222;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px ;
+}
+/*Damos formato al texto del menú*/
+a{
+    text-decoration: none;
+    color: #F3F3F3;
+    font-size: 16px;
+}
+/*Convertimos la lista en un
+contenedor con el fin de darle
+formato horizontal*/
+.menu{
+    display: flex;
+    text-decoration: none;
+    grid-column-gap: 10px;
+}
+
+.section-img{
+    display: flex;
+    margin: 35px 20px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:  #E5E5E5;
+    height: 434px;
+    margin: 0;
+    grid-column-gap: 5px;
+    justify-content: center;
+
+}
+
+.pizza{
+    background-image: url("img/moto.jpg");
+    width: 490px;
+    height: 350px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.text-pizza{
+    display: flex;
+    grid-column-gap: 6px;
+    margin: 20px;
+}
+.red-title{ 
+    color: #FC200C;
+}
+#buy{
+    color: #F3F3F3;
+}
+.podio-pizzas{
+    background-image: url("img/rectangulo.png");
+    width: 491px;
+    height: 350px;
+    position: relative;
+}
+#prime-pizza{
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    color:  #FC200C;
+    font-weight: 700;
+    margin-top: 26px;
+    margin-bottom: 58px;
+}
+
+#top-five{
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    color: #222222;
+    margin-left: 69px;
+    margin-bottom: 20px;
+}
+.lista-pizzas{
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 51px;
+    display: flex;
+    grid-row-gap: 10px;
+    flex-direction: column;
+}
+#comida{
+    display: flex;
+    position: absolute;
+    margin-left: 325px;
+}
+.pie-de-pagina{
+    display: flex;  
+    justify-content: space-between;
+    background-color: #222222;
+    height: 150px;
+}            
+
+.lista-pie-pagina{
+    display: flex;
+    color: #F3F3F3;
+    flex-direction: column;
+    margin: 19px 20px;
+    justify-content: space-around;
+}
+.logo-footer{
+    display: flex;
+    align-items: center;
+    margin-right: 42px;
+
+}
