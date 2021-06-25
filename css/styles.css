@@ -50,7 +50,7 @@ formato horizontal*/
 }
 
 .pizza{
-    background-image: url("img/moto.jpg");
+    background-image: url(../img/moto.jpg);
     width: 490px;
     height: 350px;
     font-size: 24px;
@@ -70,7 +70,7 @@ formato horizontal*/
     color: #F3F3F3;
 }
 .podio-pizzas{
-    background-image: url("img/rectangulo.png");
+    background-image: url(../img/rectangulo.png);
     width: 491px;
     height: 350px;
     position: relative;
